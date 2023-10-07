@@ -1,6 +1,1 @@
-{
- "cells": [],
- "metadata": {},
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# It's a discrete event simulator for simulating the queue
