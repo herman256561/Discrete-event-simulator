@@ -32,10 +32,10 @@ def main(argv):
             dropped_count_points.append(pkt_dropped)
 
     # Create plot
-    plt.plot(event_seq_points, queue_len_points, label = "pkt_in_q")
-    plt.plot(event_seq_points, dropped_count_points, label = "pkt_dropped")
-    # plt.plot(event_seq_points[0:2000], queue_len_points[0:2000], label = "pkt_in_q")
-    # plt.plot(event_seq_points[0:2000], dropped_count_points[0:2000], label = "pkt_dropped")
+    #plt.plot(event_seq_points, queue_len_points, label = "pkt_in_q")
+    #plt.plot(event_seq_points, dropped_count_points, label = "pkt_dropped")
+    plt.plot(event_seq_points[0:40000], queue_len_points[0:40000], label = "pkt_in_q")
+    plt.plot(event_seq_points[0:40000], dropped_count_points[0:40000], label = "pkt_dropped")
     plt.legend()
     if args.title:
         plt.title(args.title)
