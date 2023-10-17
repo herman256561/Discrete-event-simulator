@@ -22,6 +22,7 @@ Completed the 1,000,000 times of simulations, the results will be recorded into 
 By observing the results from the experiments, the relationship between the arrival rate, departure rate of a packet, and the buffer size follows a certain pattern. 
 
 The results of experiments such as text files and graphs are stored in the “logs” file. The explanations of the results can be found in **[this report](https://drive.google.com/file/d/1x5jnUg3pf4zwbvlNmS39Cj2HsDAb607d/view?usp=sharing)**. 
+The context of this project can be found **[here](https://drive.google.com/file/d/1QWXSbpenz0Xe0Qau0QvVnE13LAc6Sj6m/view?usp=share_link)**.
 
 
 
