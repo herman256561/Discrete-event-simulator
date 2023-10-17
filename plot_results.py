@@ -34,8 +34,8 @@ def main(argv):
     # Create plot
     #plt.plot(event_seq_points, queue_len_points, label = "pkt_in_q")
     #plt.plot(event_seq_points, dropped_count_points, label = "pkt_dropped")
-    plt.plot(event_seq_points[0:40000], queue_len_points[0:40000], label = "pkt_in_q")
-    plt.plot(event_seq_points[0:40000], dropped_count_points[0:40000], label = "pkt_dropped")
+    plt.plot(event_seq_points[990000:1000000], queue_len_points[990000:1000000], label = "pkt_in_q")
+    #plt.plot(event_seq_points[100000:103000], dropped_count_points[100000:103000], label = "pkt_dropped")
     plt.legend()
     if args.title:
         plt.title(args.title)
